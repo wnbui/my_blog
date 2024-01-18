@@ -4,10 +4,9 @@ description: 'Hugo, the world''s fastest framework for building websites'
 author: Hugo Authors
 ---
 
-Will B is a sophomore computer science student at the California State University, Fullerton. Prior to going back to school, he worked as a Linux systems administrator for the United States Navy. 
+Will B is a sophomore computer science student at the California State University, Fullerton. Prior to going back to school, he worked as a Linux systems administrator for the United States Navy. Currently, he is seeking internships for upcoming Summer 2024.
 
 His interests include:
-
 * Cloud Engineering
 * Data Engineering
 * Security Engineering
