@@ -12,6 +12,8 @@ Two years ago to the day was my EOS (end of service). Like many service members,
 
 I’m going to share my process in preparing for this transition so that it may help any service members who are thinking about getting out of the military but do not know where to start.
 
+***
+
 ## Understand the why
 The best decision I ever made was joining the Navy. The second best decision I ever made was leaving the Navy. Regardless of the branch that you served in, this is a fairly common shared sentiment amongst the current generation of military veterans–especially us enlisted folks. We all have our reasons for joining, and we all have our reasons for leaving. The first step in separating is understanding the reasons behind your decision. For some, the reasons are [obvious](https://old.reddit.com/r/Veterans/comments/17apeib/my_personal_reasons_for_getting_out_please_share/).
 
@@ -28,17 +30,23 @@ Here are some things to consider:
 
 The sooner you can understand why you want to leave the military, the sooner you can commit and prepare for that transition.
 
+***
+
 ## Identify your mission
 
+***
 
 ## Strategic planning
 > _"Plans are useless but planning is indispensable." - Dwight D. Eisenhower_
 
+***
 
 ## Execute
 
+***
 
 ## Evaluate and debrief
 
+***
 
 ## Conclusion

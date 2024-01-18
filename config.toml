@@ -1,4 +1,4 @@
-title = "My journey in tech"
+title = "My transition into tech"
 baseURL = 'https://hba.sid.one/'
 
 # This is what goes in <html lang="">
@@ -64,7 +64,7 @@ disqusShortname = ''
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "My personal blog about my journey in tech"
+  description = "My personal blog about my transition into tech"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
@@ -84,9 +84,9 @@ disqusShortname = ''
 [Languages.en-gb.params.author]
   avatar = "" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "My journey"
+  intro = "My transition into tech"
   name = "Will B"
-  description = "Aspiring software engineer. Head in the clouds. Securiy minded."
+  description = "Aspiring software engineer. Head in the clouds. Security minded."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
