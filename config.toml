@@ -112,5 +112,9 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/wnbui/"
 
 [[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/wnbui"
+
+[[params.socialIcons]]
 name = "Rss"
 url = "index.xml"
