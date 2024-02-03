@@ -1,5 +1,5 @@
 +++
-title = 'Transition'
+title = 'So you want to leave the military'
 date = 2024-02-07T22:02:21-08:00
 draft = true
 toc = true
