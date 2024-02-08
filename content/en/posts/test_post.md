@@ -1,7 +1,7 @@
 +++
 title = 'Deploying Hugo on AWS'
 date = 2024-01-25T22:12:55-08:00
-draft = false
+draft = true
 toc = true
 tocOpen = true
 +++

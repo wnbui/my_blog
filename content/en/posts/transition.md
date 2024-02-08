@@ -1,6 +1,6 @@
 +++
 title = 'So you want to leave the military'
-date = 2024-02-07T22:02:21-08:00
+date = 2024-02-07T20:02:21-08:00
 draft = false
 toc = true
 tocOpen = true
