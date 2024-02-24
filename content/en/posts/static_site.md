@@ -13,8 +13,8 @@ In my software engineering class, I have been tasked with building a portfolio w
 
 ## Register a domain with Route 53
 
-AWS [Route 53](https://aws.amazon.com/route53/) is a scalable Domain Name System (DNS). 
-First, register a custom domain through Route 53. I was able to register my custom domain for $13 in a matter of minutes.
+<p>AWS [Route 53](https://aws.amazon.com/route53/) is a scalable Domain Name System (DNS). 
+First, register a custom domain through Route 53. I was able to register my custom domain for $13 in a matter of minutes.</P>
 
 ![Registering domain](/posts/images/static_site/domain_registration.png "Registering domain")
 
@@ -30,13 +30,10 @@ Create two buckets, one for the root domain <code>(yoursite.com)</code> and subd
 
 - Access <b>Amazon S3</b> > <b>Buckets</b>, select <b>Create buckets</b>. Select a region close to your location to minimize cost and latency. Name your buckets appropriately to the examples above.
 ![Bucket 1](/posts/images/static_site/s3_bucket_1.png "Bucket 1")
-
 - Leave <b>Public Access settings</b> to <b>Block</b> <i>all</i> <b>public access</b> for security reasons so that your files are not available for the public to access.
 ![Bucket 2](/posts/images/static_site/s3_bucket_2.png "Bucket 2")
-
 - Feel free to add a tag to your bucket so that you can manage and organize your buckets.
 ![Bucket 3](/posts/images/static_site/s3_bucket_3.png "Bucket 3")
-
 - Select the encryption that you prefer and hit <b>Create bucket</b> to create your new bucket.
 ![Bucket 4](/posts/images/static_site/s3_bucket_4.png "Bucket 4")
 
@@ -111,7 +108,6 @@ Now it's time to upload the content of your website. For my site, I will be uplo
 ![Route 53 0](/posts/images/static_site/route_53_0.png "Route 53 0")
 - Select <b>Simple routing</b>.
 <br>
-
 ![Route 53 1](/posts/images/static_site/route_53_1.png "Route 53 1")
 
 First, you must create an alias record for your root domain.
