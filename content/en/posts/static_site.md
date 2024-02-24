@@ -1,13 +1,13 @@
 +++
 title = 'Deploying a static site on AWS S3'
 date = 2024-02-22T22:12:55-08:00
-draft = false
+draft = true
 toc = true
 tocOpen = true
 +++
 
 # The beginning
- In 2019, while returning from a deployment in the Western Pacific, 
+ In 2019, while on deployment in the Western Pacific, 
 
 [contracts](https://www.nytimes.com/2022/12/07/business/pentagon-cloud-contracts-jwcc.html)
 ***
@@ -32,7 +32,7 @@ Create two buckets, one for the root domain (yoursite.com) and subdomain \(www.y
 Leave <b>Public Access settings</b> to <b>Block</b> <i>all</i> <b>public access</b> for security reasons so that your files are not available for the public to access.
 ![Bucket 2](/posts/images/s3_bucket_2.png "Bucket 2")
 
-Feel free to add a tag to your bucket so that you can manage and organize your buckets, especially when it comes to managing costs when it comes to billing.
+Feel free to add a tag to your bucket so that you can manage and organize your buckets.
 ![Bucket 3](/posts/images/s3_bucket_3.png "Bucket 3")
 
 Select the encryption that you prefer and hit <b>Create bucket</b> to create your new bucket.
