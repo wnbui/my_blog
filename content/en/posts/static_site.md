@@ -18,6 +18,8 @@ First, register a custom domain through Route 53. I was able to register my cust
 
 ![Registering domain](/posts/images/static_site/domain_registration.png "Registering domain")
 
+<br>
+
 ***
 
 ## What is AWS S3
@@ -104,14 +106,14 @@ Now it's time to upload the content of your website. For my site, I will be uplo
 ### 5. Connect the custom domain name to root domain and subdomain
 <p>You are almost done. The final step is to create alias records that you add to the hosted zone of your domain maps. This is done through Route 53, where the mapping between the alias records and the IP addresses where the Amazon S3 buckets reside.</p>
 
-<p>First create the alias record for your root domain.
-
 - Acess the Route 53 console. Choose <b>Hosted zones</b>. Select the hosted zone that matches your domain name.
 - Select <b>Create record</b>. Then select <b>Switch to wizard</b>.
 ![Route 53 0](/posts/images/static_site/route_53_0.png "Route 53 0")
 - Select <b>Simple routing</b>.
 <br>
+
 ![Route 53 1](/posts/images/static_site/route_53_1.png "Route 53 1")
+
 First, you must create an alias record for your root domain.
 - Select <b>Define simple record</b>. For <b>Record name</b> of the root domain, leave blank. 
 - In <b>Record type</b>, select <b> A - Routes traffic to an IPv4 address and some AWS resource</b>.
@@ -126,17 +128,16 @@ Now create an alias record for your subdomain.
 ![Route 53 3](/posts/images/static_site/route_53_3.png "Route 53 3")
 
 ### 6. Test the website
-<p>Go to your web browser and test your custom domain and subdomain by entering the appropriate URLs. Congratulations on deploying a static website to AWS.</p>
-
-
+<p>Go to your web browser and test your custom domain and subdomain by entering the appropriate URLs. Congratulations on deploying a static website to AWS.</p><br>
 
 ***
 
 ## My architecture
 
-Here is the architecture of my portfolio site.
+<p>Here is the architecture of my portfolio site.</p>
+
 ![My architecture](/posts/images/static_site/architecture_portfolio.png "My architecture")
 
 In the future, I will improve upon this architecture by using CodePipePlines, Certificate Manager, and CloudFront. AWS [CodePipeline](https://aws.amazon.com/codepipeline/) is a CI/CD service. It will automate continuous delivery from GitHub to update my S3 bucket. AWS [Cloud Manager](https://aws.amazon.com/certificate-manager/) provisions and manages SSL/TLS certificates for AWS services and connected resources. It will enable <code>https://</code> traffic for my site. AWS [CloudFront](https://aws.amazon.com/cloudfront/) is a content delivery network (CDN) serice. It will speed up my site by making my site files available from data centers around the world.
 
-I hope you enjoyed this guide as much as I enjoyed learning more AWS.
+I hope you enjoyed this guide as much as I enjoyed learning more about AWS.
